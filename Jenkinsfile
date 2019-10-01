@@ -1,3 +1,7 @@
 #!/usr/bin/env groovy
-echo "Making vscode change to test."
+node {  
+    stage('Build') { 
+        create_user.hellomessage()
+    }
+}
 println "Hello-Neeraj"
